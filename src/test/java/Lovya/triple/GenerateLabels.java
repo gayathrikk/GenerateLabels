@@ -128,7 +128,7 @@ public class GenerateLabels {
 	            WebElement c= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//nb-accordion-item-header[text()='Contributors']")));
 	            c.click();
 	            Thread.sleep(3000);
-	            Thread.sleep(3000);
+	          
 	            System.out.println("The  Contributor is clicked");
 	        } catch (Exception e) {
 	            System.err.println("The Contributor is not clicked: " + e.getMessage());
